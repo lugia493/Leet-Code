@@ -47,5 +47,5 @@ root.left.left = Node(-2)
 root.left.right = Node(10)
 
 findSumPath.list = []
-print(findSumPath(root, 12))
+print(findSumPath(root, 11))
 print(findSumPath.list)

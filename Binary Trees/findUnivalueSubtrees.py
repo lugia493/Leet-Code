@@ -22,7 +22,7 @@ def countUnivalueSubtrees(root):
             countUnivalueSubtrees.count += 1
             return True
     return False
-        
+
 def main():
     root = Node(5) 
     root.left = Node(1) 

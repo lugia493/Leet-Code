@@ -31,8 +31,8 @@ def levelorder(root):
                 q.append(temp.left)
             count -= 1
         final.append(temp_l)
-    
     print(np.matrix(final))
+    
 def main():
     root = Node(10) 
     root.left = Node(8) 

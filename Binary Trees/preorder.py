@@ -26,7 +26,8 @@ def iterativePreorder(root):
         if node.left:
             stack.append(node.left)
     print(l)
-    
+
+
 def recursivePreordereHelper(root, res):
     if root:
         res.append(root.val)
